@@ -1,0 +1,19 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+    
+block content 
+    section#intro 
+        div#bg
+            img(src="/static/bg.jpg", alt="")
+        div#intro-head
+            h1 Dance Site
+            hr
+        div#intro-para
+            p Welcome
+            hr

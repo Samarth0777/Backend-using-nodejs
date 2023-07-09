@@ -1,0 +1,30 @@
+doctype html 
+html 
+    head 
+        title Dance Website 
+        style 
+            include ../static/style.css
+    body 
+        nav#navbar 
+            ul 
+                li #[a(href="/index") Home]
+                li #[a(href="/") About Us]
+                li #[a(href="/contact") Contact Us]
+                li #[a(href="/") Subscribe]
+
+        section#intro 
+            div#bg
+                img(src="/static/bg.jpg", alt="")
+            div#intro-head
+                h1 Dance Site
+                hr
+            div#intro-para
+                p Welcome
+                hr
+
+
+
+        script 
+            include ../static/script.js
+
+        
